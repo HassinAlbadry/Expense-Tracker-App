@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Expenses Tracker App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="main">
+<div id="center">
+<label for="noteTakerTitle" >Name:</label>
+<input type="text" name="name" id="name">
+<br>
+<label for="noteTakerTitle" >Date:</label>
+<input type="Date" name="date" id="date">
+<br>
+<label for="noteTakerDesc">Amount:</label>
+<textarea name="amount" id="amount"> </textarea>
+<br>
+<br>
+<button type="button" id="submit" onclick="addExpense()">Add Expense!</button>
+</div>
+
+
+<div id="displayExpense">  
+	<table id='nameResult'>
+  <tr>
+    <th>Name</th>
+    <th>Date</th>
+    <th>Amount</th>    
+  </tr>
+ 
+</table>
+
+
+
+ 
+</div>
+
+</div>
+
+<script src="public-js.js"></script>
+
+</body>
+
+</html>
