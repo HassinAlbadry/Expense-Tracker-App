@@ -1,3 +1,49 @@
 table, th, td {
   border: 1px solid black;
+
+}
+table{
+
+	width: 100%;
+}
+
+#name{
+	
+	width: 80%;
+
+}
+
+
+#main { 
+  height: 100%;
+  position: relative;
+  border: 3px solid green; 
+}
+
+#center {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+#displayExpense{
+   padding-top: 5%;
+}
+
+button{
+	margin-left: 40%;
+	background-color: #4CAF50;
+	color: white;
+}
+h1{
+  margin-top: 10%;
+  margin-left: 25%;
+}
+h3{
+  color: #4CAF50;
+  margin-left: 30%;
 }
